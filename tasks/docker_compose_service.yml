@@ -1,8 +1,4 @@
 ---
-  - name: install docker-compose
-    package:
-      name: docker-compose
-
   - name: "create directory for project"
     file:
       path: "{{ item.root_dir }}"
